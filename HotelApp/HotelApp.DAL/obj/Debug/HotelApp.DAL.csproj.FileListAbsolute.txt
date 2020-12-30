@@ -1,0 +1,24 @@
+C:\Users\natal\OneDrive\Рабочий стол\KPI IP-81\3 курс 2020-21\C# 2.0\lab3\HotelApp\HotelApp.DAL\bin\Debug\HotelApp.DAL.dll.config
+C:\Users\natal\OneDrive\Рабочий стол\KPI IP-81\3 курс 2020-21\C# 2.0\lab3\HotelApp\HotelApp.DAL\bin\Debug\HotelApp.DAL.dll
+C:\Users\natal\OneDrive\Рабочий стол\KPI IP-81\3 курс 2020-21\C# 2.0\lab3\HotelApp\HotelApp.DAL\bin\Debug\HotelApp.DAL.pdb
+C:\Users\natal\OneDrive\Рабочий стол\KPI IP-81\3 курс 2020-21\C# 2.0\lab3\HotelApp\HotelApp.DAL\bin\Debug\EntityFramework.dll
+C:\Users\natal\OneDrive\Рабочий стол\KPI IP-81\3 курс 2020-21\C# 2.0\lab3\HotelApp\HotelApp.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\natal\OneDrive\Рабочий стол\KPI IP-81\3 курс 2020-21\C# 2.0\lab3\HotelApp\HotelApp.DAL\bin\Debug\EntityFramework.xml
+C:\Users\natal\OneDrive\Рабочий стол\KPI IP-81\3 курс 2020-21\C# 2.0\lab3\HotelApp\HotelApp.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\natal\OneDrive\Рабочий стол\KPI IP-81\3 курс 2020-21\C# 2.0\lab3\HotelApp\HotelApp.DAL\obj\Debug\HotelApp.DAL.csprojAssemblyReference.cache
+C:\Users\natal\OneDrive\Рабочий стол\KPI IP-81\3 курс 2020-21\C# 2.0\lab3\HotelApp\HotelApp.DAL\obj\Debug\HotelApp.DAL.csproj.CoreCompileInputs.cache
+C:\Users\natal\OneDrive\Рабочий стол\KPI IP-81\3 курс 2020-21\C# 2.0\lab3\HotelApp\HotelApp.DAL\obj\Debug\HotelApp.DAL.csproj.CopyComplete
+C:\Users\natal\OneDrive\Рабочий стол\KPI IP-81\3 курс 2020-21\C# 2.0\lab3\HotelApp\HotelApp.DAL\obj\Debug\HotelApp.DAL.dll
+C:\Users\natal\OneDrive\Рабочий стол\KPI IP-81\3 курс 2020-21\C# 2.0\lab3\HotelApp\HotelApp.DAL\obj\Debug\HotelApp.DAL.pdb
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HotelApp.DAL\bin\Debug\HotelApp.DAL.dll.config
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HotelApp.DAL\bin\Debug\HotelApp.DAL.dll
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HotelApp.DAL\bin\Debug\HotelApp.DAL.pdb
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HotelApp.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HotelApp.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HotelApp.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HotelApp.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HotelApp.DAL\obj\Debug\HotelApp.DAL.csprojAssemblyReference.cache
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HotelApp.DAL\obj\Debug\HotelApp.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HotelApp.DAL\obj\Debug\HotelApp.DAL.csproj.CopyComplete
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HotelApp.DAL\obj\Debug\HotelApp.DAL.dll
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HotelApp.DAL\obj\Debug\HotelApp.DAL.pdb

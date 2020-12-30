@@ -1,0 +1,73 @@
+﻿@model IEnumerable<HotelApp.BLL.DTO.SuiteDTO>
+
+@{
+    ViewBag.Title = "ListSuite";
+}
+@*<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>*@
+
+<body style=" background: rgba(0, 0, 0, 0.3) ">
+
+    <h3 style="text-align:center;font-family:'Comic Sans MS'">Welcome, @HotelApp.PL.Controllers.HomeController.currentUserLogin!</h3>
+    <h1 style="font-family:'Comic Sans MS', Times, serif;text-align: center; color: white; background-color: crimson">List Suite</h1>
+
+    <div class="container">
+        <table class="table table-dark">
+            <tr>
+                <th>
+                    Category №:
+                </th>
+                <th>
+                    Price:
+                </th>
+                <th>
+                    Max Quantity Of People:
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr style="font-weight:bold">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.category)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.base_cost)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.max_quantity)
+                    </td>
+
+                    <td>
+                        @Html.ActionLink("Make a Reservation", "DetailsSuite", "Suite", new { id = item.id }, new { id = "make" })
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+</body>
+
+<style>
+    #make {
+        text-decoration: none;
+        border: 2px crimson;
+        padding: 7px;
+        border-radius: 22px;
+        font-size: smaller;
+        color: crimson;
+        background-color: white;
+    }
+
+        #make:hover {
+            color: white;
+            background-color: crimson;
+        }
+</style>
+
+@Styles.Render("~/Content/css")
+@Scripts.Render("~/bundles/modernizr")
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")

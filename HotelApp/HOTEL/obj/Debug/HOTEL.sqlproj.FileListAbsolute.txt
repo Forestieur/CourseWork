@@ -1,0 +1,10 @@
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HOTEL\bin\Debug\HOTEL.dacpac
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HOTEL\obj\Debug\HOTEL.sqlprojAssemblyReference.cache
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HOTEL\obj\Debug\Model.xml
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HOTEL\obj\Debug\refactor.xml
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HOTEL\obj\Debug\postdeploy.sql
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HOTEL\obj\Debug\predeploy.sql
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HOTEL\obj\Debug\HOTEL.dll
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HOTEL\obj\Debug\HOTEL.pdb
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HOTEL\bin\Debug\HOTEL.dll
+C:\Users\Костя\Desktop\Курсова робота\HotelApp\HOTEL\bin\Debug\HOTEL.pdb

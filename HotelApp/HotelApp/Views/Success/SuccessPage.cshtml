@@ -1,0 +1,33 @@
+﻿@model HotelApp.BLL.DTO.BookingDTO
+@{
+    ViewBag.Title = "SuccessPage";
+}
+
+<br />
+<br />
+<br />
+<body>
+<div id="block">
+    <h2 style="text-align:center">Thank you for your order № @ViewBag.arr[0]!</h2>
+    <h3 style="text-align:center">Total price - @ViewBag.arr[1]</h3>
+    <h3 style="text-align:center">@ViewBag.arr[2]</h3>
+    <img src="" />
+    <p style="border: 2px solid red; border-radius: 16px;">
+        @Html.ActionLink("Back to List", "ListSuite", "Suite", "", new { @class = " btn btn-block" })
+    </p>
+</div>
+    </body>
+
+<style>
+    body {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    
+    #block {
+        position: relative;
+      
+        padding: 30px;
+        width: 550px;
+        margin: auto;
+    }
+</style>

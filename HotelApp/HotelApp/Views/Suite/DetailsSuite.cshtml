@@ -1,0 +1,103 @@
+﻿@model HotelApp.BLL.DTO.BookingDTO
+
+@{
+    ViewBag.Title = "DetailsSuite";
+}
+<br />
+<br />
+<background-color : rgba(0, 0, 0, 0.3) ></background-color>
+<body>
+<h1 style="text-align:center">@ViewBag.takeId[0] Category</h1>
+<h6 style="text-align:center;color:black">Order by @ViewBag.takeId[1]</h6>
+<h6 style="text-align:center;color:Red;font-weight:bold">@ViewBag.err</h6>
+@using (Html.BeginForm())
+{
+    <div id="content">
+        <hr />
+        <h1 style="text-align:center;color:red;font-size:smaller">@ViewBag.error_msg</h1>
+        <dl class="dl-horizontal">
+            <dd>
+                <div class="form-group">
+                    <label for="inputDate">Booking from:</label>
+                    @Html.EditorFor(model => model.booking_from, new { htmlAttributes = new { type = "datetime-local" } })
+                </div>
+            </dd>
+            <dd>
+                <div class="form-group">
+                    <label for="inputDate">Booking to:</label>
+                    @Html.EditorFor(model => model.booking_to, new { htmlAttributes = new { type = "datetime-local" } })
+                </div>
+            </dd>
+            <dd>
+                <div class="form-group">
+                    @Html.RadioButtonFor(model => model.prepayed, true, new { htmlAttributes = new { @class = "form-control" } })
+                    <label class="form-check-label">Is Prepayed:</label>
+                </div>
+            </dd>
+            <dd>
+                <div class="form-group">
+                    @Html.RadioButtonFor(model => model.fullpayed, true, new { htmlAttributes = new { @class = "form-control" } })
+                    <label class="form-check-label">Is Fullpayed:</label>
+                </div>
+            </dd>
+        </dl>
+        <p>
+            <div id="bDel" class="form-actions no-color">
+                <input type="submit" value="OK" class="btn btn-block mybtn btn-primary tx-tfm" />
+            </div>
+        </p>
+    </div>}
+<p style="border: 2px solid crimson; border-radius: 16px;">
+    @Html.ActionLink("Back to List", "ListSuite", "Suite", "", new { @class = " btn btn-block" })
+</p>
+    </body>
+
+<style>
+    body {
+        background-color : rgba(0,0,0,0.34);
+    }
+    #bDel {
+        width: 70px;
+
+        margin: auto;
+    }
+
+    #content {
+        width: 200px;
+        margin: auto;
+    }
+
+    #success_btn {
+        border: 2px solid blue;
+        color: azure;
+        background-color: crimson;
+        border-radius: 22px;
+        width: 200px;
+        padding: 12px;
+        text-decoration: none;
+        margin: auto;
+    }
+
+        #success_btn:hover {
+            color: crimson;
+            background-color: azure;
+            border-radius: 22px;
+        }
+
+    #back {
+        float: left;
+        border: 1px solid blue;
+        border-radius: 22px;
+        position: absolute;
+        padding: 11px;
+        text-decoration: none;
+        background-color: aqua;
+        color: sandybrown;
+    }
+
+        #back:hover {
+            background-color: sandybrown;
+            background: rgba(0, 0, 0, 0.3);
+            color: aqua;
+        }
+</style>
