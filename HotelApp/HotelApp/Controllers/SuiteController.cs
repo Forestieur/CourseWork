@@ -7,6 +7,7 @@
     using System.Collections.Generic;
     using HotelApp.BLL.Interfaces;
 
+
     public class SuiteController : Controller
     {
         public static string pre_fullPayed;

@@ -12,7 +12,5 @@ namespace HotelApp.DAL.EF
         public virtual DbSet<BOOKING> BOOKINGS { get; set; }
 
        
-
-      
     }
 }
